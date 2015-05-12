@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2008/09/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="stack_concursoModelStoreContainer" CdmEntityContainer="entidades">
+    <EntitySetMapping Name="tb_atendimento_especial">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_atendimento_especial">
+        <MappingFragment StoreEntitySet="tb_atendimento_especial">
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="cod_candidato" ColumnName="cod_candidato" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_caderno">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_caderno">
+        <MappingFragment StoreEntitySet="tb_caderno">
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="cod_opcao" ColumnName="cod_opcao" />
+          <ScalarProperty Name="cod_caderno" ColumnName="cod_caderno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_candidato">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_candidato">
+        <MappingFragment StoreEntitySet="tb_candidato">
+          <ScalarProperty Name="valido" ColumnName="valido" />
+          <ScalarProperty Name="obs_atendiemento_especial" ColumnName="obs_atendiemento_especial" />
+          <ScalarProperty Name="atendimento_especial" ColumnName="atendimento_especial" />
+          <ScalarProperty Name="naturalidade" ColumnName="naturalidade" />
+          <ScalarProperty Name="nome_pai" ColumnName="nome_pai" />
+          <ScalarProperty Name="estado_civil" ColumnName="estado_civil" />
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="falta" ColumnName="falta" />
+          <ScalarProperty Name="observacao" ColumnName="observacao" />
+          <ScalarProperty Name="nome_mae" ColumnName="nome_mae" />
+          <ScalarProperty Name="cod_opcao" ColumnName="cod_opcao" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="deficiencia" ColumnName="deficiencia" />
+          <ScalarProperty Name="sexo" ColumnName="sexo" />
+          <ScalarProperty Name="cpf" ColumnName="cpf" />
+          <ScalarProperty Name="uf_rg" ColumnName="uf_rg" />
+          <ScalarProperty Name="orgao_rg" ColumnName="orgao_rg" />
+          <ScalarProperty Name="rg" ColumnName="rg" />
+          <ScalarProperty Name="celular" ColumnName="celular" />
+          <ScalarProperty Name="telefone" ColumnName="telefone" />
+          <ScalarProperty Name="data_nascimento" ColumnName="data_nascimento" />
+          <ScalarProperty Name="uf" ColumnName="uf" />
+          <ScalarProperty Name="complemento" ColumnName="complemento" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+          <ScalarProperty Name="cod_cidade" ColumnName="cod_cidade" />
+          <ScalarProperty Name="bairro" ColumnName="bairro" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="data_inscricao" ColumnName="data_inscricao" />
+          <ScalarProperty Name="num_inscricao" ColumnName="num_inscricao" />
+          <ScalarProperty Name="cod_candidato" ColumnName="cod_candidato" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_cargo">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_cargo">
+        <MappingFragment StoreEntitySet="tb_cargo">
+          <ScalarProperty Name="ordem" ColumnName="ordem" />
+          <ScalarProperty Name="cod_grade" ColumnName="cod_grade" />
+          <ScalarProperty Name="cod_nivel" ColumnName="cod_nivel" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="cod_cargo" ColumnName="cod_cargo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_carteira">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_carteira">
+        <MappingFragment StoreEntitySet="tb_carteira">
+          <ScalarProperty Name="numero_carteira" ColumnName="numero_carteira" />
+          <ScalarProperty Name="cod_sala_concurso" ColumnName="cod_sala_concurso" />
+          <ScalarProperty Name="cod_candidato" ColumnName="cod_candidato" />
+          <ScalarProperty Name="cod_carteira" ColumnName="cod_carteira" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_concurso">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_concurso">
+        <MappingFragment StoreEntitySet="tb_concurso">
+          <ScalarProperty Name="cod_instituicao" ColumnName="cod_instituicao" />
+          <ScalarProperty Name="valor_inscricao" ColumnName="valor_inscricao" />
+          <ScalarProperty Name="data_realizacao" ColumnName="data_realizacao" />
+          <ScalarProperty Name="data_fim" ColumnName="data_fim" />
+          <ScalarProperty Name="data_inicio" ColumnName="data_inicio" />
+          <ScalarProperty Name="ativo" ColumnName="ativo" />
+          <ScalarProperty Name="descricao_concurso" ColumnName="descricao_concurso" />
+          <ScalarProperty Name="cod_concurso" ColumnName="cod_concurso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_deficiencia">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_deficiencia">
+        <MappingFragment StoreEntitySet="tb_deficiencia">
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="cod_deficiencia" ColumnName="cod_deficiencia" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_grade">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_grade">
+        <MappingFragment StoreEntitySet="tb_grade">
+          <ScalarProperty Name="descricao_grade" ColumnName="descricao_grade" />
+          <ScalarProperty Name="cod_grade" ColumnName="cod_grade" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_instituicao">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_instituicao">
+        <MappingFragment StoreEntitySet="tb_instituicao">
+          <ScalarProperty Name="ativo" ColumnName="ativo" />
+          <ScalarProperty Name="nome_instituicao" ColumnName="nome_instituicao" />
+          <ScalarProperty Name="cod_instituicao" ColumnName="cod_instituicao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_local_prova">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_local_prova">
+        <MappingFragment StoreEntitySet="tb_local_prova">
+          <ScalarProperty Name="fax" ColumnName="fax" />
+          <ScalarProperty Name="telefone2" ColumnName="telefone2" />
+          <ScalarProperty Name="telefone1" ColumnName="telefone1" />
+          <ScalarProperty Name="cep" ColumnName="cep" />
+          <ScalarProperty Name="cidade" ColumnName="cidade" />
+          <ScalarProperty Name="bairro" ColumnName="bairro" />
+          <ScalarProperty Name="num" ColumnName="num" />
+          <ScalarProperty Name="endereco" ColumnName="endereco" />
+          <ScalarProperty Name="descricao_local" ColumnName="descricao_local" />
+          <ScalarProperty Name="cod_local" ColumnName="cod_local" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_municipio">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_municipio">
+        <MappingFragment StoreEntitySet="tb_municipio">
+          <ScalarProperty Name="nome_cidade" ColumnName="nome_cidade" />
+          <ScalarProperty Name="cod_uf" ColumnName="cod_uf" />
+          <ScalarProperty Name="cod_municipio" ColumnName="cod_municipio" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_nivel_escolaridade">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_nivel_escolaridade">
+        <MappingFragment StoreEntitySet="tb_nivel_escolaridade">
+          <ScalarProperty Name="descricao_nivel" ColumnName="descricao_nivel" />
+          <ScalarProperty Name="cod_nivel" ColumnName="cod_nivel" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_opcao">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_opcao">
+        <MappingFragment StoreEntitySet="tb_opcao">
+          <ScalarProperty Name="cod_turno" ColumnName="cod_turno" />
+          <ScalarProperty Name="cod_ordem" ColumnName="cod_ordem" />
+          <ScalarProperty Name="codigo_identificador" ColumnName="codigo_identificador" />
+          <ScalarProperty Name="cod_cidade" ColumnName="cod_cidade" />
+          <ScalarProperty Name="cod_concurso" ColumnName="cod_concurso" />
+          <ScalarProperty Name="vagas" ColumnName="vagas" />
+          <ScalarProperty Name="cod_cargo" ColumnName="cod_cargo" />
+          <ScalarProperty Name="cod_opcao" ColumnName="cod_opcao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_prova">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_prova">
+        <MappingFragment StoreEntitySet="tb_prova">
+          <ScalarProperty Name="cod_opcao" ColumnName="cod_opcao" />
+          <ScalarProperty Name="num_questoes" ColumnName="num_questoes" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="cod_prova" ColumnName="cod_prova" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_questao">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_questao">
+        <MappingFragment StoreEntitySet="tb_questao">
+          <ScalarProperty Name="peso" ColumnName="peso" />
+          <ScalarProperty Name="resposta_correta" ColumnName="resposta_correta" />
+          <ScalarProperty Name="descricao" ColumnName="descricao" />
+          <ScalarProperty Name="cod_prova" ColumnName="cod_prova" />
+          <ScalarProperty Name="cod_questao" ColumnName="cod_questao" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_questao_caderno">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_questao_caderno">
+        <MappingFragment StoreEntitySet="tb_questao_caderno">
+          <ScalarProperty Name="cod_questao" ColumnName="cod_questao" />
+          <ScalarProperty Name="cod_caderno" ColumnName="cod_caderno" />
+          <ScalarProperty Name="numero" ColumnName="numero" />
+          <ScalarProperty Name="cod_questao_caderno" ColumnName="cod_questao_caderno" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_resposta">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_resposta">
+        <MappingFragment StoreEntitySet="tb_resposta">
+          <ScalarProperty Name="nota" ColumnName="nota" />
+          <ScalarProperty Name="cod_questao" ColumnName="cod_questao" />
+          <ScalarProperty Name="resposta" ColumnName="resposta" />
+          <ScalarProperty Name="cod_candidato" ColumnName="cod_candidato" />
+          <ScalarProperty Name="cod_resposta" ColumnName="cod_resposta" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_sala_concurso">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_sala_concurso">
+        <MappingFragment StoreEntitySet="tb_sala_concurso">
+          <ScalarProperty Name="cod_sala" ColumnName="cod_sala" />
+          <ScalarProperty Name="cod_concurso" ColumnName="cod_concurso" />
+          <ScalarProperty Name="cod_sala_concurso" ColumnName="cod_sala_concurso" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_sala_local">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_sala_local">
+        <MappingFragment StoreEntitySet="tb_sala_local">
+          <ScalarProperty Name="cod_turno" ColumnName="cod_turno" />
+          <ScalarProperty Name="descricao_sala" ColumnName="descricao_sala" />
+          <ScalarProperty Name="numero_sala" ColumnName="numero_sala" />
+          <ScalarProperty Name="cadeiras" ColumnName="cadeiras" />
+          <ScalarProperty Name="cod_local_prova" ColumnName="cod_local_prova" />
+          <ScalarProperty Name="cod_sala_local" ColumnName="cod_sala_local" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_uf">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_uf">
+        <MappingFragment StoreEntitySet="tb_uf">
+          <ScalarProperty Name="sigla" ColumnName="sigla" />
+          <ScalarProperty Name="nome" ColumnName="nome" />
+          <ScalarProperty Name="cod_uf" ColumnName="cod_uf" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tb_usuario">
+      <EntityTypeMapping TypeName="stack_concursoModel.tb_usuario">
+        <MappingFragment StoreEntitySet="tb_usuario">
+          <ScalarProperty Name="admin" ColumnName="admin" />
+          <ScalarProperty Name="ativo" ColumnName="ativo" />
+          <ScalarProperty Name="senha" ColumnName="senha" />
+          <ScalarProperty Name="login" ColumnName="login" />
+          <ScalarProperty Name="nome_usuario" ColumnName="nome_usuario" />
+          <ScalarProperty Name="cod_usuario" ColumnName="cod_usuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

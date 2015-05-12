@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F5109A48-617C-4ED5-98EE-971F87CFF014}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>stack_concurso.domain</RootNamespace>
+    <AssemblyName>stack_concurso.domain</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Acessorios\Connection.cs" />
+    <Compile Include="Acessorios\Contexto.cs" />
+    <Compile Include="Acessorios\GenericSingleton.cs" />
+    <Compile Include="Acessorios\GlobalConfiguration.cs" />
+    <Compile Include="Business\CadernoBO.cs" />
+    <Compile Include="Business\CandidatoBO.cs" />
+    <Compile Include="Business\CargoBO.cs" />
+    <Compile Include="Business\CarteiraBO.cs" />
+    <Compile Include="Business\ConcursoBO.cs" />
+    <Compile Include="Business\DeficienciaBO.cs" />
+    <Compile Include="Business\GradeBO.cs" />
+    <Compile Include="Business\InstituicaoBO.cs" />
+    <Compile Include="Business\LocalProvaBO.cs" />
+    <Compile Include="Business\MunicipioBO.cs" />
+    <Compile Include="Business\NivelEscolaridadeBO.cs" />
+    <Compile Include="Business\OpcaoBO.cs" />
+    <Compile Include="Business\ProvaBO.cs" />
+    <Compile Include="Business\QuestaoBO.cs" />
+    <Compile Include="Business\QuestaoCadernoBO.cs" />
+    <Compile Include="Business\RespostaBO.cs" />
+    <Compile Include="Business\SalaConcursoBO.cs" />
+    <Compile Include="Business\UfBO.cs" />
+    <Compile Include="Business\UsuarioBO.cs" />
+    <Compile Include="Class1.cs" />
+    <Compile Include="Classes\AbstractCrudDAO.cs" />
+    <Compile Include="Classes\CadernoDAO.cs" />
+    <Compile Include="Classes\CandidatoDAO.cs" />
+    <Compile Include="Classes\CargoDAO.cs" />
+    <Compile Include="Classes\CarteiraDAO.cs" />
+    <Compile Include="Classes\ConcursoDAO.cs" />
+    <Compile Include="Classes\DeficienciaDAO.cs" />
+    <Compile Include="Classes\GradeDAO.cs" />
+    <Compile Include="Classes\InstituicaoDAO.cs" />
+    <Compile Include="Classes\LocalProvaDAO.cs" />
+    <Compile Include="Classes\MunicipioDAO.cs" />
+    <Compile Include="Classes\NivelEscolaridadeDAO.cs" />
+    <Compile Include="Classes\OpcaoDAO.cs" />
+    <Compile Include="Classes\ProvaDAO.cs" />
+    <Compile Include="Classes\QuestaoCadernoDAO.cs" />
+    <Compile Include="Classes\QuestaoDAO.cs" />
+    <Compile Include="Classes\RespostaDAO.cs" />
+    <Compile Include="Classes\SalaConcursoDAO.cs" />
+    <Compile Include="Classes\SalaLocalDAO.cs" />
+    <Compile Include="Classes\UfDAO.cs" />
+    <Compile Include="Classes\UsuarioDAO.cs" />
+    <Compile Include="Interfaces\IBaseCrudDAO.cs" />
+    <Compile Include="Interfaces\ICaderno.cs" />
+    <Compile Include="Interfaces\ICandidato.cs" />
+    <Compile Include="Interfaces\ICargo.cs" />
+    <Compile Include="Interfaces\ICarteira.cs" />
+    <Compile Include="Interfaces\IConcurso.cs" />
+    <Compile Include="Interfaces\IDeficiencia.cs" />
+    <Compile Include="Interfaces\IGrade.cs" />
+    <Compile Include="Interfaces\IInstituicao.cs" />
+    <Compile Include="Interfaces\ILocalProva.cs" />
+    <Compile Include="Interfaces\IMunicipio.cs" />
+    <Compile Include="Interfaces\INivelEscolaridade.cs" />
+    <Compile Include="Interfaces\IOpcao.cs" />
+    <Compile Include="Interfaces\IProva.cs" />
+    <Compile Include="Interfaces\IQuestao.cs" />
+    <Compile Include="Interfaces\IQuestaoCaderno.cs" />
+    <Compile Include="Interfaces\IResposta.cs" />
+    <Compile Include="Interfaces\ISalaConcurso.cs" />
+    <Compile Include="Interfaces\ISalaLocal.cs" />
+    <Compile Include="Interfaces\IUf.cs" />
+    <Compile Include="Interfaces\IUsuario.cs" />
+    <Compile Include="Modelo\modelo.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>modelo.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.Config">
+      <SubType>Designer</SubType>
+    </None>
+    <EntityDeploy Include="Modelo\modelo.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>modelo.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Properties\DataSources\stack_concurso.domain.Modelo.entidades.datasource" />
+    <None Include="Properties\DataSources\stack_concurso.domain.Modelo.stack_concurso_sescEntities.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

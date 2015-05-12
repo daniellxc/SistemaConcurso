@@ -1,0 +1,46 @@
+D:\Files\stack\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+D:\Files\stack\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+D:\Files\stack\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+D:\Files\stack\stack_concurso\stack_concurso.domain\obj\Debug\ResolveAssemblyReference.cache
+D:\Files\stack\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+D:\Files\stack\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+C:\Sistemas\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.domain\obj\Debug\ResolveAssemblyReference.cache
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.csprojResolveAssemblyReference.cache
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.csprojResolveAssemblyReference.cache
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.csprojResolveAssemblyReference.cache
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb
+D:\Nova pasta\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+D:\Nova pasta\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+D:\Nova pasta\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+D:\Nova pasta\stack_concurso\stack_concurso.domain\obj\Debug\ResolveAssemblyReference.cache
+D:\Nova pasta\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+D:\Nova pasta\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll.config
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.dll
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.domain\bin\Debug\stack_concurso.domain.pdb
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.dll
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.domain\obj\Debug\stack_concurso.domain.pdb

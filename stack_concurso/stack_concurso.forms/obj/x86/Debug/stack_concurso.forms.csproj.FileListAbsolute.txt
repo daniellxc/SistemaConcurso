@@ -1,0 +1,252 @@
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csproj.GenerateResource.Cache
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+c:\users\litu\documents\visual studio 2010\Projects\Stack_Forms\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+D:\Files\stack\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+D:\Files\stack\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+D:\Files\stack\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+D:\Files\stack\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Files\stack\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+D:\Files\stack\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csprojResolveAssemblyReference.cache
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csproj.GenerateResource.Cache
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+C:\Sistemas\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Configuracao_bd.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.application
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.application
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Login.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Confirmar_Sair.resources
+C:\Sistemas\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.candidato.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Configuracao_bd.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Confirmar_Sair.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.candidato.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Login.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.manifest
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.application
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe.manifest
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.application
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.consulta_candidato.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csprojResolveAssemblyReference.cache
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Configuracao_bd.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Confirmar_Sair.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.candidato.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.consulta_candidato.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Login.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csproj.GenerateResource.Cache
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.application
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.application
+D:\Files\stack\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.exportacao.exportacao_arquivo.resources
+C:\Sistemas\stack_concurso NOVO\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.exportacao.exportacao_arquivo.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.application
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csprojResolveAssemblyReference.cache
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Configuracao_bd.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Confirmar_Sair.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.candidato.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.consulta_candidato.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.exportacao.exportacao_arquivo.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Login.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csproj.GenerateResource.Cache
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso NOVO ORIGINAL\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.application
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.application
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csprojResolveAssemblyReference.cache
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Configuracao_bd.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Confirmar_Sair.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.candidato.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.consulta_candidato.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.exportacao.exportacao_arquivo.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Login.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csproj.GenerateResource.Cache
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe.manifest
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.application
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.leitura.FLeituraArquivo.resources
+C:\Sistemas\stack_concurso SENAC\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.criarProva.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+D:\Nova pasta\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.manifest
+D:\Nova pasta\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.application
+D:\Nova pasta\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+D:\Nova pasta\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+D:\Nova pasta\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+D:\Nova pasta\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.criarProva.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Configuracao_bd.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Confirmar_Sair.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.candidato.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.consulta_candidato.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.exportacao.exportacao_arquivo.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.leitura.FLeituraArquivo.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Login.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe.manifest
+D:\Nova pasta\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.application
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.config
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.pdb
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csprojResolveAssemblyReference.cache
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.candidato.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.cargo.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.criarProva.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.opcao.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.cadastro.prova.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Configuracao_bd.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.Confirmar_Sair.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.header.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.common.masterPage.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.candidato.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.consulta.consulta_candidato.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.exportacao.exportacao_arquivo.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.leitura.FLeituraArquivo.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.cenarios.relatorios.candidato_inscricao.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Form1.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Login.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.Properties.Resources.resources
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.csproj.GenerateResource.Cache
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.cache
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\RdlCompile.compiled
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe.manifest
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.application
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.exe
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.forms.pdb
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\MySql.Data.dll
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.dll
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\stack_concurso.domain.pdb
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.exe.manifest
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\obj\x86\Debug\stack_concurso.forms.application
+H:\Projetos\stack_concurso\stack_concurso\stack_concurso.forms\bin\Debug\MySql.Data.Entity.dll

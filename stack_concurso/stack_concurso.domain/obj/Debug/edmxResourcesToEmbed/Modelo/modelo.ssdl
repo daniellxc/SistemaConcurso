@@ -1,0 +1,635 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="stack_concursoModel.Store" Alias="Self" Provider="MySql.Data.MySqlClient" ProviderManifestToken="5.5" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/02/edm/ssdl">
+  <EntityContainer Name="stack_concursoModelStoreContainer">
+    <EntitySet Name="tb_atendimento_especial" EntityType="stack_concursoModel.Store.tb_atendimento_especial" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_caderno" EntityType="stack_concursoModel.Store.tb_caderno" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_candidato" EntityType="stack_concursoModel.Store.tb_candidato" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_cargo" EntityType="stack_concursoModel.Store.tb_cargo" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_carteira" EntityType="stack_concursoModel.Store.tb_carteira" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_concurso" EntityType="stack_concursoModel.Store.tb_concurso" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_deficiencia" EntityType="stack_concursoModel.Store.tb_deficiencia" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_grade" EntityType="stack_concursoModel.Store.tb_grade" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_instituicao" EntityType="stack_concursoModel.Store.tb_instituicao" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_local_prova" EntityType="stack_concursoModel.Store.tb_local_prova" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_municipio" EntityType="stack_concursoModel.Store.tb_municipio" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_nivel_escolaridade" EntityType="stack_concursoModel.Store.tb_nivel_escolaridade" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_opcao" EntityType="stack_concursoModel.Store.tb_opcao" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_prova" EntityType="stack_concursoModel.Store.tb_prova" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_questao" EntityType="stack_concursoModel.Store.tb_questao" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_questao_caderno" EntityType="stack_concursoModel.Store.tb_questao_caderno" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_resposta" EntityType="stack_concursoModel.Store.tb_resposta" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_sala_concurso" EntityType="stack_concursoModel.Store.tb_sala_concurso" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_sala_local" EntityType="stack_concursoModel.Store.tb_sala_local" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_uf" EntityType="stack_concursoModel.Store.tb_uf" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <EntitySet Name="tb_usuario" EntityType="stack_concursoModel.Store.tb_usuario" store:Type="Tables" Schema="stack_concurso_sesc" />
+    <AssociationSet Name="candidato" Association="stack_concursoModel.Store.candidato">
+      <End Role="tb_candidato" EntitySet="tb_candidato" />
+      <End Role="tb_carteira" EntitySet="tb_carteira" />
+    </AssociationSet>
+    <AssociationSet Name="fk_caderno_opcao" Association="stack_concursoModel.Store.fk_caderno_opcao">
+      <End Role="tb_opcao" EntitySet="tb_opcao" />
+      <End Role="tb_caderno" EntitySet="tb_caderno" />
+    </AssociationSet>
+    <AssociationSet Name="fk_candidato" Association="stack_concursoModel.Store.fk_candidato">
+      <End Role="tb_candidato" EntitySet="tb_candidato" />
+      <End Role="tb_atendimento_especial" EntitySet="tb_atendimento_especial" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cargo_grade" Association="stack_concursoModel.Store.fk_cargo_grade">
+      <End Role="tb_grade" EntitySet="tb_grade" />
+      <End Role="tb_cargo" EntitySet="tb_cargo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cargo_nivel" Association="stack_concursoModel.Store.fk_cargo_nivel">
+      <End Role="tb_nivel_escolaridade" EntitySet="tb_nivel_escolaridade" />
+      <End Role="tb_cargo" EntitySet="tb_cargo" />
+    </AssociationSet>
+    <AssociationSet Name="fk_cidad" Association="stack_concursoModel.Store.fk_cidad">
+      <End Role="tb_municipio" EntitySet="tb_municipio" />
+      <End Role="tb_candidato" EntitySet="tb_candidato" />
+    </AssociationSet>
+    <AssociationSet Name="fk_concurso_instituicao" Association="stack_concursoModel.Store.fk_concurso_instituicao">
+      <End Role="tb_instituicao" EntitySet="tb_instituicao" />
+      <End Role="tb_concurso" EntitySet="tb_concurso" />
+    </AssociationSet>
+    <AssociationSet Name="fk_deficiencia" Association="stack_concursoModel.Store.fk_deficiencia">
+      <End Role="tb_deficiencia" EntitySet="tb_deficiencia" />
+      <End Role="tb_candidato" EntitySet="tb_candidato" />
+    </AssociationSet>
+    <AssociationSet Name="fk_naturalidade" Association="stack_concursoModel.Store.fk_naturalidade">
+      <End Role="tb_municipio" EntitySet="tb_municipio" />
+      <End Role="tb_candidato" EntitySet="tb_candidato" />
+    </AssociationSet>
+    <AssociationSet Name="fk_opcao_cargo" Association="stack_concursoModel.Store.fk_opcao_cargo">
+      <End Role="tb_cargo" EntitySet="tb_cargo" />
+      <End Role="tb_opcao" EntitySet="tb_opcao" />
+    </AssociationSet>
+    <AssociationSet Name="fk_opcao_cidade" Association="stack_concursoModel.Store.fk_opcao_cidade">
+      <End Role="tb_municipio" EntitySet="tb_municipio" />
+      <End Role="tb_opcao" EntitySet="tb_opcao" />
+    </AssociationSet>
+    <AssociationSet Name="fk_opcao_concurso" Association="stack_concursoModel.Store.fk_opcao_concurso">
+      <End Role="tb_concurso" EntitySet="tb_concurso" />
+      <End Role="tb_opcao" EntitySet="tb_opcao" />
+    </AssociationSet>
+    <AssociationSet Name="fk_prova_opcao" Association="stack_concursoModel.Store.fk_prova_opcao">
+      <End Role="tb_opcao" EntitySet="tb_opcao" />
+      <End Role="tb_prova" EntitySet="tb_prova" />
+    </AssociationSet>
+    <AssociationSet Name="fk_questao_prova" Association="stack_concursoModel.Store.fk_questao_prova">
+      <End Role="tb_prova" EntitySet="tb_prova" />
+      <End Role="tb_questao" EntitySet="tb_questao" />
+    </AssociationSet>
+    <AssociationSet Name="fk_questcard_caderno" Association="stack_concursoModel.Store.fk_questcard_caderno">
+      <End Role="tb_caderno" EntitySet="tb_caderno" />
+      <End Role="tb_questao_caderno" EntitySet="tb_questao_caderno" />
+    </AssociationSet>
+    <AssociationSet Name="fk_questcard_questao" Association="stack_concursoModel.Store.fk_questcard_questao">
+      <End Role="tb_questao" EntitySet="tb_questao" />
+      <End Role="tb_questao_caderno" EntitySet="tb_questao_caderno" />
+    </AssociationSet>
+    <AssociationSet Name="fk_resposta_candidato" Association="stack_concursoModel.Store.fk_resposta_candidato">
+      <End Role="tb_candidato" EntitySet="tb_candidato" />
+      <End Role="tb_resposta" EntitySet="tb_resposta" />
+    </AssociationSet>
+    <AssociationSet Name="fk_resposta_questao" Association="stack_concursoModel.Store.fk_resposta_questao">
+      <End Role="tb_questao" EntitySet="tb_questao" />
+      <End Role="tb_resposta" EntitySet="tb_resposta" />
+    </AssociationSet>
+    <AssociationSet Name="fk1" Association="stack_concursoModel.Store.fk1">
+      <End Role="tb_uf" EntitySet="tb_uf" />
+      <End Role="tb_municipio" EntitySet="tb_municipio" />
+    </AssociationSet>
+    <AssociationSet Name="opcao" Association="stack_concursoModel.Store.opcao">
+      <End Role="tb_opcao" EntitySet="tb_opcao" />
+      <End Role="tb_candidato" EntitySet="tb_candidato" />
+    </AssociationSet>
+    <AssociationSet Name="sala_carteira" Association="stack_concursoModel.Store.sala_carteira">
+      <End Role="tb_sala_concurso" EntitySet="tb_sala_concurso" />
+      <End Role="tb_carteira" EntitySet="tb_carteira" />
+    </AssociationSet>
+    <AssociationSet Name="sala_concurso" Association="stack_concursoModel.Store.sala_concurso">
+      <End Role="tb_concurso" EntitySet="tb_concurso" />
+      <End Role="tb_sala_concurso" EntitySet="tb_sala_concurso" />
+    </AssociationSet>
+    <AssociationSet Name="sala_local" Association="stack_concursoModel.Store.sala_local">
+      <End Role="tb_sala_local" EntitySet="tb_sala_local" />
+      <End Role="tb_sala_concurso" EntitySet="tb_sala_concurso" />
+    </AssociationSet>
+    <AssociationSet Name="sala_local_local" Association="stack_concursoModel.Store.sala_local_local">
+      <End Role="tb_local_prova" EntitySet="tb_local_prova" />
+      <End Role="tb_sala_local" EntitySet="tb_sala_local" />
+    </AssociationSet>
+  </EntityContainer>
+  <EntityType Name="tb_atendimento_especial">
+    <Key>
+      <PropertyRef Name="cod_candidato" />
+    </Key>
+    <Property Name="cod_candidato" Type="int" Nullable="false" />
+    <Property Name="descricao" Type="varchar" Nullable="false" MaxLength="200" />
+  </EntityType>
+  <EntityType Name="tb_caderno">
+    <Key>
+      <PropertyRef Name="cod_caderno" />
+    </Key>
+    <Property Name="cod_caderno" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cod_opcao" Type="int" Nullable="false" />
+    <Property Name="descricao" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_candidato">
+    <Key>
+      <PropertyRef Name="cod_candidato" />
+    </Key>
+    <Property Name="cod_candidato" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="num_inscricao" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="data_inscricao" Type="datetime" Nullable="false" />
+    <Property Name="nome" Type="varchar" Nullable="false" MaxLength="200" />
+    <Property Name="endereco" Type="varchar" Nullable="false" MaxLength="255" />
+    <Property Name="numero" Type="varchar" MaxLength="5" />
+    <Property Name="bairro" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="cod_cidade" Type="int" Nullable="false" />
+    <Property Name="cep" Type="varchar" MaxLength="10" />
+    <Property Name="complemento" Type="varchar" MaxLength="255" />
+    <Property Name="uf" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="data_nascimento" Type="date" Nullable="false" />
+    <Property Name="telefone" Type="varchar" MaxLength="20" />
+    <Property Name="celular" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="rg" Type="varchar" Nullable="false" MaxLength="15" />
+    <Property Name="orgao_rg" Type="varchar" Nullable="false" MaxLength="30" />
+    <Property Name="uf_rg" Type="varchar" Nullable="false" MaxLength="2" />
+    <Property Name="cpf" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="sexo" Type="char" Nullable="false" MaxLength="1" />
+    <Property Name="deficiencia" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="email" Type="varchar" MaxLength="255" />
+    <Property Name="cod_opcao" Type="int" Nullable="false" />
+    <Property Name="nome_mae" Type="varchar" MaxLength="200" />
+    <Property Name="observacao" Type="varchar" MaxLength="255" />
+    <Property Name="falta" Type="int" />
+    <Property Name="nota" Type="decimal" />
+    <Property Name="estado_civil" Type="varchar" MaxLength="45" />
+    <Property Name="nome_pai" Type="varchar" MaxLength="200" />
+    <Property Name="naturalidade" Type="int" Nullable="false" />
+    <Property Name="atendimento_especial" Type="bit" Nullable="false" />
+    <Property Name="obs_atendiemento_especial" Type="varchar" MaxLength="200" />
+    <Property Name="valido" Type="bit" />
+  </EntityType>
+  <EntityType Name="tb_cargo">
+    <Key>
+      <PropertyRef Name="cod_cargo" />
+    </Key>
+    <Property Name="cod_cargo" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="cod_nivel" Type="int" Nullable="false" />
+    <Property Name="cod_grade" Type="int" Nullable="false" />
+    <Property Name="ordem" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_carteira">
+    <Key>
+      <PropertyRef Name="cod_carteira" />
+    </Key>
+    <Property Name="cod_carteira" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cod_candidato" Type="int" Nullable="false" />
+    <Property Name="cod_sala_concurso" Type="int" Nullable="false" />
+    <Property Name="numero_carteira" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_concurso">
+    <Key>
+      <PropertyRef Name="cod_concurso" />
+    </Key>
+    <Property Name="cod_concurso" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao_concurso" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="ativo" Type="bit" />
+    <Property Name="data_inicio" Type="datetime" />
+    <Property Name="data_fim" Type="datetime" />
+    <Property Name="data_realizacao" Type="datetime" />
+    <Property Name="valor_inscricao" Type="float" />
+    <Property Name="cod_instituicao" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_deficiencia">
+    <Key>
+      <PropertyRef Name="cod_deficiencia" />
+    </Key>
+    <Property Name="cod_deficiencia" Type="varchar" Nullable="false" MaxLength="10" />
+    <Property Name="descricao" Type="varchar" Nullable="false" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_grade">
+    <Key>
+      <PropertyRef Name="cod_grade" />
+    </Key>
+    <Property Name="cod_grade" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao_grade" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_instituicao">
+    <Key>
+      <PropertyRef Name="cod_instituicao" />
+    </Key>
+    <Property Name="cod_instituicao" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nome_instituicao" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="ativo" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_local_prova">
+    <Key>
+      <PropertyRef Name="cod_local" />
+    </Key>
+    <Property Name="cod_local" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao_local" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="endereco" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="num" Type="varchar" MaxLength="10" />
+    <Property Name="bairro" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="cidade" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="cep" Type="varchar" MaxLength="10" />
+    <Property Name="telefone1" Type="varchar" MaxLength="45" />
+    <Property Name="telefone2" Type="varchar" MaxLength="45" />
+    <Property Name="fax" Type="varchar" MaxLength="45" />
+  </EntityType>
+  <EntityType Name="tb_municipio">
+    <Key>
+      <PropertyRef Name="cod_municipio" />
+    </Key>
+    <Property Name="cod_municipio" Type="int" Nullable="false" />
+    <Property Name="cod_uf" Type="int" Nullable="false" />
+    <Property Name="nome_cidade" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_nivel_escolaridade">
+    <Key>
+      <PropertyRef Name="cod_nivel" />
+    </Key>
+    <Property Name="cod_nivel" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao_nivel" Type="varchar" Nullable="false" MaxLength="100" />
+  </EntityType>
+  <EntityType Name="tb_opcao">
+    <Key>
+      <PropertyRef Name="cod_opcao" />
+    </Key>
+    <Property Name="cod_opcao" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cod_cargo" Type="int" Nullable="false" />
+    <Property Name="vagas" Type="int" Nullable="false" />
+    <Property Name="cod_concurso" Type="int" Nullable="false" />
+    <Property Name="cod_cidade" Type="int" Nullable="false" />
+    <Property Name="codigo_identificador" Type="varchar" MaxLength="45" />
+    <Property Name="cod_ordem" Type="int" />
+    <Property Name="cod_turno" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_prova">
+    <Key>
+      <PropertyRef Name="cod_prova" />
+    </Key>
+    <Property Name="cod_prova" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="descricao" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="num_questoes" Type="int" Nullable="false" />
+    <Property Name="cod_opcao" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_questao">
+    <Key>
+      <PropertyRef Name="cod_questao" />
+    </Key>
+    <Property Name="cod_questao" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cod_prova" Type="int" Nullable="false" />
+    <Property Name="descricao" Type="varchar" Nullable="false" MaxLength="100" />
+    <Property Name="resposta_correta" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="peso" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_questao_caderno">
+    <Key>
+      <PropertyRef Name="cod_questao_caderno" />
+    </Key>
+    <Property Name="cod_questao_caderno" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="numero" Type="int" Nullable="false" />
+    <Property Name="cod_caderno" Type="int" Nullable="false" />
+    <Property Name="cod_questao" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_resposta">
+    <Key>
+      <PropertyRef Name="cod_resposta" />
+    </Key>
+    <Property Name="cod_resposta" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cod_candidato" Type="int" Nullable="false" />
+    <Property Name="resposta" Type="varchar" Nullable="false" MaxLength="1" />
+    <Property Name="cod_questao" Type="int" Nullable="false" />
+    <Property Name="nota" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_sala_concurso">
+    <Key>
+      <PropertyRef Name="cod_sala_concurso" />
+    </Key>
+    <Property Name="cod_sala_concurso" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cod_concurso" Type="int" Nullable="false" />
+    <Property Name="cod_sala" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tb_sala_local">
+    <Key>
+      <PropertyRef Name="cod_sala_local" />
+    </Key>
+    <Property Name="cod_sala_local" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="cod_local_prova" Type="int" Nullable="false" />
+    <Property Name="cadeiras" Type="int" Nullable="false" />
+    <Property Name="numero_sala" Type="int" Nullable="false" />
+    <Property Name="descricao_sala" Type="varchar" MaxLength="45" />
+    <Property Name="cod_turno" Type="int" />
+  </EntityType>
+  <EntityType Name="tb_uf">
+    <Key>
+      <PropertyRef Name="cod_uf" />
+    </Key>
+    <Property Name="cod_uf" Type="int" Nullable="false" />
+    <Property Name="nome" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="sigla" Type="varchar" Nullable="false" MaxLength="2" />
+  </EntityType>
+  <EntityType Name="tb_usuario">
+    <Key>
+      <PropertyRef Name="cod_usuario" />
+    </Key>
+    <Property Name="cod_usuario" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+    <Property Name="nome_usuario" Type="varchar" Nullable="false" MaxLength="45" />
+    <Property Name="login" Type="varchar" Nullable="false" MaxLength="20" />
+    <Property Name="senha" Type="varchar" Nullable="false" MaxLength="50" />
+    <Property Name="ativo" Type="bit" Nullable="false" />
+    <Property Name="admin" Type="bit" Nullable="false" />
+  </EntityType>
+  <Association Name="candidato">
+    <End Role="tb_candidato" Type="stack_concursoModel.Store.tb_candidato" Multiplicity="1" />
+    <End Role="tb_carteira" Type="stack_concursoModel.Store.tb_carteira" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_candidato">
+        <PropertyRef Name="cod_candidato" />
+      </Principal>
+      <Dependent Role="tb_carteira">
+        <PropertyRef Name="cod_candidato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_caderno_opcao">
+    <End Role="tb_opcao" Type="stack_concursoModel.Store.tb_opcao" Multiplicity="1" />
+    <End Role="tb_caderno" Type="stack_concursoModel.Store.tb_caderno" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_opcao">
+        <PropertyRef Name="cod_opcao" />
+      </Principal>
+      <Dependent Role="tb_caderno">
+        <PropertyRef Name="cod_opcao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_candidato">
+    <End Role="tb_candidato" Type="stack_concursoModel.Store.tb_candidato" Multiplicity="1" />
+    <End Role="tb_atendimento_especial" Type="stack_concursoModel.Store.tb_atendimento_especial" Multiplicity="0..1" />
+    <ReferentialConstraint>
+      <Principal Role="tb_candidato">
+        <PropertyRef Name="cod_candidato" />
+      </Principal>
+      <Dependent Role="tb_atendimento_especial">
+        <PropertyRef Name="cod_candidato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cargo_grade">
+    <End Role="tb_grade" Type="stack_concursoModel.Store.tb_grade" Multiplicity="1" />
+    <End Role="tb_cargo" Type="stack_concursoModel.Store.tb_cargo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_grade">
+        <PropertyRef Name="cod_grade" />
+      </Principal>
+      <Dependent Role="tb_cargo">
+        <PropertyRef Name="cod_grade" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cargo_nivel">
+    <End Role="tb_nivel_escolaridade" Type="stack_concursoModel.Store.tb_nivel_escolaridade" Multiplicity="1" />
+    <End Role="tb_cargo" Type="stack_concursoModel.Store.tb_cargo" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_nivel_escolaridade">
+        <PropertyRef Name="cod_nivel" />
+      </Principal>
+      <Dependent Role="tb_cargo">
+        <PropertyRef Name="cod_nivel" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_cidad">
+    <End Role="tb_municipio" Type="stack_concursoModel.Store.tb_municipio" Multiplicity="1" />
+    <End Role="tb_candidato" Type="stack_concursoModel.Store.tb_candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_municipio">
+        <PropertyRef Name="cod_municipio" />
+      </Principal>
+      <Dependent Role="tb_candidato">
+        <PropertyRef Name="cod_cidade" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_concurso_instituicao">
+    <End Role="tb_instituicao" Type="stack_concursoModel.Store.tb_instituicao" Multiplicity="0..1" />
+    <End Role="tb_concurso" Type="stack_concursoModel.Store.tb_concurso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_instituicao">
+        <PropertyRef Name="cod_instituicao" />
+      </Principal>
+      <Dependent Role="tb_concurso">
+        <PropertyRef Name="cod_instituicao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_deficiencia">
+    <End Role="tb_deficiencia" Type="stack_concursoModel.Store.tb_deficiencia" Multiplicity="1" />
+    <End Role="tb_candidato" Type="stack_concursoModel.Store.tb_candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_deficiencia">
+        <PropertyRef Name="cod_deficiencia" />
+      </Principal>
+      <Dependent Role="tb_candidato">
+        <PropertyRef Name="deficiencia" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_naturalidade">
+    <End Role="tb_municipio" Type="stack_concursoModel.Store.tb_municipio" Multiplicity="1" />
+    <End Role="tb_candidato" Type="stack_concursoModel.Store.tb_candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_municipio">
+        <PropertyRef Name="cod_municipio" />
+      </Principal>
+      <Dependent Role="tb_candidato">
+        <PropertyRef Name="naturalidade" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_opcao_cargo">
+    <End Role="tb_cargo" Type="stack_concursoModel.Store.tb_cargo" Multiplicity="1" />
+    <End Role="tb_opcao" Type="stack_concursoModel.Store.tb_opcao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_cargo">
+        <PropertyRef Name="cod_cargo" />
+      </Principal>
+      <Dependent Role="tb_opcao">
+        <PropertyRef Name="cod_cargo" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_opcao_cidade">
+    <End Role="tb_municipio" Type="stack_concursoModel.Store.tb_municipio" Multiplicity="1" />
+    <End Role="tb_opcao" Type="stack_concursoModel.Store.tb_opcao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_municipio">
+        <PropertyRef Name="cod_municipio" />
+      </Principal>
+      <Dependent Role="tb_opcao">
+        <PropertyRef Name="cod_cidade" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_opcao_concurso">
+    <End Role="tb_concurso" Type="stack_concursoModel.Store.tb_concurso" Multiplicity="1" />
+    <End Role="tb_opcao" Type="stack_concursoModel.Store.tb_opcao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_concurso">
+        <PropertyRef Name="cod_concurso" />
+      </Principal>
+      <Dependent Role="tb_opcao">
+        <PropertyRef Name="cod_concurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_prova_opcao">
+    <End Role="tb_opcao" Type="stack_concursoModel.Store.tb_opcao" Multiplicity="1" />
+    <End Role="tb_prova" Type="stack_concursoModel.Store.tb_prova" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_opcao">
+        <PropertyRef Name="cod_opcao" />
+      </Principal>
+      <Dependent Role="tb_prova">
+        <PropertyRef Name="cod_opcao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_questao_prova">
+    <End Role="tb_prova" Type="stack_concursoModel.Store.tb_prova" Multiplicity="1" />
+    <End Role="tb_questao" Type="stack_concursoModel.Store.tb_questao" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_prova">
+        <PropertyRef Name="cod_prova" />
+      </Principal>
+      <Dependent Role="tb_questao">
+        <PropertyRef Name="cod_prova" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_questcard_caderno">
+    <End Role="tb_caderno" Type="stack_concursoModel.Store.tb_caderno" Multiplicity="1" />
+    <End Role="tb_questao_caderno" Type="stack_concursoModel.Store.tb_questao_caderno" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_caderno">
+        <PropertyRef Name="cod_caderno" />
+      </Principal>
+      <Dependent Role="tb_questao_caderno">
+        <PropertyRef Name="cod_caderno" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_questcard_questao">
+    <End Role="tb_questao" Type="stack_concursoModel.Store.tb_questao" Multiplicity="1" />
+    <End Role="tb_questao_caderno" Type="stack_concursoModel.Store.tb_questao_caderno" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_questao">
+        <PropertyRef Name="cod_questao" />
+      </Principal>
+      <Dependent Role="tb_questao_caderno">
+        <PropertyRef Name="cod_questao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_resposta_candidato">
+    <End Role="tb_candidato" Type="stack_concursoModel.Store.tb_candidato" Multiplicity="1" />
+    <End Role="tb_resposta" Type="stack_concursoModel.Store.tb_resposta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_candidato">
+        <PropertyRef Name="cod_candidato" />
+      </Principal>
+      <Dependent Role="tb_resposta">
+        <PropertyRef Name="cod_candidato" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk_resposta_questao">
+    <End Role="tb_questao" Type="stack_concursoModel.Store.tb_questao" Multiplicity="1" />
+    <End Role="tb_resposta" Type="stack_concursoModel.Store.tb_resposta" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_questao">
+        <PropertyRef Name="cod_questao" />
+      </Principal>
+      <Dependent Role="tb_resposta">
+        <PropertyRef Name="cod_questao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="fk1">
+    <End Role="tb_uf" Type="stack_concursoModel.Store.tb_uf" Multiplicity="1" />
+    <End Role="tb_municipio" Type="stack_concursoModel.Store.tb_municipio" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_uf">
+        <PropertyRef Name="cod_uf" />
+      </Principal>
+      <Dependent Role="tb_municipio">
+        <PropertyRef Name="cod_uf" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="opcao">
+    <End Role="tb_opcao" Type="stack_concursoModel.Store.tb_opcao" Multiplicity="1" />
+    <End Role="tb_candidato" Type="stack_concursoModel.Store.tb_candidato" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_opcao">
+        <PropertyRef Name="cod_opcao" />
+      </Principal>
+      <Dependent Role="tb_candidato">
+        <PropertyRef Name="cod_opcao" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sala_carteira">
+    <End Role="tb_sala_concurso" Type="stack_concursoModel.Store.tb_sala_concurso" Multiplicity="1" />
+    <End Role="tb_carteira" Type="stack_concursoModel.Store.tb_carteira" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_sala_concurso">
+        <PropertyRef Name="cod_sala_concurso" />
+      </Principal>
+      <Dependent Role="tb_carteira">
+        <PropertyRef Name="cod_sala_concurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sala_concurso">
+    <End Role="tb_concurso" Type="stack_concursoModel.Store.tb_concurso" Multiplicity="1" />
+    <End Role="tb_sala_concurso" Type="stack_concursoModel.Store.tb_sala_concurso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_concurso">
+        <PropertyRef Name="cod_concurso" />
+      </Principal>
+      <Dependent Role="tb_sala_concurso">
+        <PropertyRef Name="cod_concurso" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sala_local">
+    <End Role="tb_sala_local" Type="stack_concursoModel.Store.tb_sala_local" Multiplicity="1" />
+    <End Role="tb_sala_concurso" Type="stack_concursoModel.Store.tb_sala_concurso" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_sala_local">
+        <PropertyRef Name="cod_sala_local" />
+      </Principal>
+      <Dependent Role="tb_sala_concurso">
+        <PropertyRef Name="cod_sala" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="sala_local_local">
+    <End Role="tb_local_prova" Type="stack_concursoModel.Store.tb_local_prova" Multiplicity="1" />
+    <End Role="tb_sala_local" Type="stack_concursoModel.Store.tb_sala_local" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tb_local_prova">
+        <PropertyRef Name="cod_local" />
+      </Principal>
+      <Dependent Role="tb_sala_local">
+        <PropertyRef Name="cod_local_prova" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+</Schema>
